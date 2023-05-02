@@ -56,3 +56,58 @@ const connectDB = async () => {
 };
 export default connectDB;
 ```
+
+- create new folders
+
+1. models
+2. routes
+3. controllers
+4. utils
+5. middleware
+
+## Model hashing password
+
+- create userSchema in userModel.js file
+- create authRoutes.js file inside routes folder
+- create a function registerController inside authController.js file and export
+- import registerController in autRouter.js file and create route
+
+```js
+// REGISTER || Method: post
+router.post("/register", registerController);
+```
+
+- import authRoutes in server.js and create routes
+
+```js
+import authRoutes from "./routes/authRoutes.js";
+//routes
+app.use("/api/v1/auth", authRoutes);
+```
+
+### hash and compare password
+
+- create authUtils file in utils folder
+
+```js
+import bcrypt from "bcrypt";
+
+export const hashPassword = async (password) => {
+  try {
+    const saltRounds = 10;
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+  } catch (error) {
+    console.log(error);
+  }
+};
+```
+
+- create two functions one for hashing password and second for comparing password
+
+```js
+export const comparePassword = async (password, hashedPassword) => {
+  return bcrypt.compare(password, hashedPassword);
+};
+```
+
+## registering user
