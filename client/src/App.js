@@ -8,7 +8,7 @@ import Pagenotfound from "./pages/Pagenotfound";
 
 function App() {
   return (
-    <div>
+    <div className="bg-gray-300">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
