@@ -10,7 +10,7 @@ const Header = () => {
             to="/"
             className="flex items-center p-2 dark:text-violet-400 text-3xl"
           >
-            Click to Cart
+            <img className="w-[200px]" src="/images/logo.png" alt="" />
           </Link>
           <ul className="items-stretch hidden space-x-3 lg:flex">
             <li className="flex">
