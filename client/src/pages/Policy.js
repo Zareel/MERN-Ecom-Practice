@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 
 const Policy = () => {
   return (
-    <Layout>
+    <Layout title={"Privacy Policy"}>
       <div className="max-w-6xl mx-auto py-6">
         <div className="w-full flex flex-col lgl:flex-row justify-between items-center lgl:gap-10">
           <div className="w-[80%] mdl:w-[50%] h-[65vh] flex justify-center items-center ">

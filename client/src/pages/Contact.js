@@ -6,7 +6,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Contact = () => {
   return (
-    <Layout>
+    <Layout title={"ContactUs - ClickToCart"}>
       <div className="max-w-6xl mx-auto">
         <div className="w-full flex flex-col lgl:flex-row justify-between items-center">
           <div className="w-[80%] mdl:w-[50%] h-[65vh] flex justify-center items-center">
