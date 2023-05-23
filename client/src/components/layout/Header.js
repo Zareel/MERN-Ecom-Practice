@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
+      <header className="p-4 bg-gray-900 dark:text-gray-100">
         <div className="container flex justify-between h-16 mx-auto">
           <Link
             to="/"
@@ -51,7 +51,7 @@ const Header = () => {
               to="/login"
               className="self-center px-8 py-3 rounded hover:text-violet-400 active:text-violet-700"
             >
-              Sign in
+              Login
             </NavLink>
             <NavLink
               to="/register"

@@ -1,5 +1,26 @@
 # MERN Ecommerce App
 
+### Click to cart is a MERN Stack ecommerce app. It allows user to browse, search for and purchase products online
+
+# Features
+
+- Brows products by category
+- Search for products by name or decription
+- View product details including image and specification
+- Add products to a cart and proceed to checkout
+- Check out securely using a payment gateway
+- View order history and status
+- Admin panel to manage products, categories and orders
+
+# Technologies
+
+- Mogodb for database
+- Express js for server
+- Reactjs for frontend
+- Nodejs for backend
+- Razerpay for payment processing
+- JWT for authentication
+
 ## db connection
 
 - server.js
