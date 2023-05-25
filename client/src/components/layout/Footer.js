@@ -5,7 +5,11 @@ const Footer = () => {
   return (
     <div className="bg-gray-900 text-white py-4  ">
       <div className="w-full flex justify-center">
-        <img className="w-[150px] mx-auto" src="/images/logo.png" alt="logo" />
+        <img
+          className="w-[200px] mx-auto"
+          src="/images/bblogo.png"
+          alt="logo"
+        />
       </div>
 
       <div className="w-full flex items-center justify-center">
